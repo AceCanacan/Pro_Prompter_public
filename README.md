@@ -1,16 +1,16 @@
 # ProPrompter 🚀
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center;">
-  <div style="flex: 0 0 50%; max-width: 50%;">
+  <div style="flex: 0 0 50%; max-width: 25%;">
     <img src="https://github.com/AceCanacan/Pro_Prompter_public/assets/110709199/ef3deb95-9ff0-4126-9f90-6d30507b7bf6" alt="Image 1" style="max-width: 100%;">
   </div>
-  <div style="flex: 0 0 50%; max-width: 50%;">
+  <div style="flex: 0 0 50%; max-width: 25%;">
     <img src="https://github.com/AceCanacan/Pro_Prompter_public/assets/110709199/f66118e2-2f1d-47b3-bd38-4f5146ecc330" alt="Image 2" style="max-width: 100%;">
   </div>
-  <div style="flex: 0 0 50%; max-width: 50%;">
+  <div style="flex: 0 0 50%; max-width: 25%;">
     <img src="https://github.com/AceCanacan/Pro_Prompter_public/assets/110709199/53dafbe7-2459-4534-b330-e8f33987b732" alt="Image 3" style="max-width: 100%;">
   </div>
-  <div style="flex: 0 0 50%; max-width: 50%;">
+  <div style="flex: 0 0 50%; max-width: 25%;">
     <img src="https://github.com/AceCanacan/Pro_Prompter_public/assets/110709199/cb4580f1-fffb-49a3-ab1d-c1e9c4e5a8e8" alt="Image 4" style="max-width: 100%;">
   </div>
 </div>
@@ -117,13 +117,3 @@ Contributions are what make the open-source community such an amazing place to l
    git push origin feature/AmazingFeature
    \```
 5. Open a Pull Request
-
-## License 📄
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
----
-
-![ProPrompter Interface](path/to/screenshot.png "ProPrompter Interface")
-
-**Enjoy crafting your custom ChatGPT prompts with the help of ProPrompter!**
