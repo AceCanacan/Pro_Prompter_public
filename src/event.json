@@ -1,0 +1,12 @@
+{
+    "TableName": "summariesDB",
+    "Item": {
+      "summaryID": {"S": "unique-id"},
+      "title": {"S": "Sample Title"},
+      "description": {"S": "Sample Description"},
+      "firstSummary": {"S": "First summary text."},
+      "secondSummary": {"S": "Second summary text."},
+      "date": {"S": "2023-11-05"}
+    }
+  }
+  

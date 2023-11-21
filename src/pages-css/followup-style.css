@@ -1,0 +1,108 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.main-container-chatpage {
+  width: 90%; /* Fixed width */
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+  margin-top: auto; /* Center vertically */
+  margin-bottom: auto; /* Center vertically */
+}
+
+/* Styles for loading screen */
+.loading-screen {
+  text-align: center;
+}
+  
+  .bot-message {
+    padding: 15px;
+    background-color: #f1f0f0;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 0.95em;
+  }
+
+  .loading-screen {
+    text-align: center; /* Center the text inside loading screen */
+    /* Add other styling as needed */
+  }
+  
+  .input-container-chat {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .user-input {
+    flex-grow: 1;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+  }
+  
+  .send-button, .done-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1em;
+    transition: background-color 0.3s;
+  }
+  
+  .send-button {
+    background-color: #5cb85c;
+    color: white;
+  }
+  
+  .send-button:disabled {
+    background-color: #5cb85c;
+    color: white;
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  .send-button:hover:not(:disabled) {
+    background-color: #4cae4c;
+  }
+  
+  .done-button {
+    background-color: #0275d8;
+    color: white;
+  }
+  
+  .done-button:hover {
+    background-color: #025aa5;
+  }
+  
+
+  .done-button {
+    background-color: #0275d8;
+    color: white;
+  }
+  
+  .done-button:disabled {
+    background-color: #0275d8;
+    color: white;
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  .done-button:hover:not(:disabled) {
+    background-color: #0275d8;
+  }
+
+
+  

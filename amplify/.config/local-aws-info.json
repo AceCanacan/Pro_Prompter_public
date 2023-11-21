@@ -1,0 +1,17 @@
+{
+  "dev": {
+    "configLevel": "project",
+    "useProfile": false,
+    "awsConfigFilePath": "/Users/acecanacan/.amplify/awscloudformation/v1tkYMu7Xj"
+  },
+  "devpro": {
+    "configLevel": "project",
+    "useProfile": true,
+    "profileName": "default"
+  },
+  "proprom": {
+    "configLevel": "project",
+    "useProfile": true,
+    "profileName": "default"
+  }
+}

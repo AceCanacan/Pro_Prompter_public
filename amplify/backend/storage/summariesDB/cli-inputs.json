@@ -1,0 +1,10 @@
+{
+  "resourceName": "summariesDB",
+  "tableName": "summariesDB",
+  "partitionKey": {
+    "fieldName": "summaryID",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}

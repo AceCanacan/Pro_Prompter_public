@@ -1,0 +1,47 @@
+.App {
+  display: flex;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  min-width: 100px;
+  max-width: 150px;
+  height: 100vh;
+  background-color: #0C356A;
+  padding-top: 20px;
+  position: sticky; /* Add this line */
+  top: 0; /* Add this line */
+}
+.sidebar-link{
+  padding: 10px 15px;
+  text-decoration: none;
+  color: white;
+  display: block;
+  transition: background 0.3s;
+}
+
+.user-info, .logout-link {
+  padding: 1px 15px; /* Add this line to ensure consistent padding on hover */
+  text-decoration: none;
+  color: white;
+  display: block;
+  transition: background 0.3s;
+}
+
+
+.sidebar-link:hover{
+  background-color: rgba(30, 103, 198, 0.5);
+  padding: 10px 15px; /* Add this line to ensure consistent padding on hover */
+}
+
+.logout-link:hover {
+  background-color: rgba(30, 103, 198, 0.5);
+  padding: 1px 15px; /* Add this line to ensure consistent padding on hover */
+}
+
+.page-content {
+  flex-grow: 1;
+  background: #f1f1f1;
+}

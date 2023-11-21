@@ -1,0 +1,69 @@
+/* General container and section styles for improved readability and structure */
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+  margin: 0;
+}
+
+.guide-container {
+    padding: 20px;
+    overflow-y: auto; /* Maintain vertical scrolling */
+    background-color: #FFF0CE; /* Light background for the container */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  .guide-title {
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 1.5em; /* Larger font size for titles */
+    font-weight: bold; /* Bold text for emphasis */
+  }
+  
+  .guide-section {
+    margin-bottom: 20px;
+    border-left: 4px solid #0174BE; /* Left border for definition */
+    padding-left: 15px; /* Padding to separate text from the border */
+  }
+  
+  /* Styling content within each guide section */
+  .guide-content {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Consistent shadow with container */
+  }
+  
+  /* Heading styles for visual hierarchy */
+  .guide-section h2 {
+    color: #0174BE;
+    margin-bottom: 10px;
+    font-size: 1.2em; /* Slightly larger size for headings */
+  }
+  
+  .guide-section h3 {
+    color: #0174BE;
+    margin-bottom: 5px;
+    font-size: 1.1em; /* Distinct size for sub-headings */
+  }
+  
+  /* Paragraph styles for readability */
+  .guide-container p {
+    color: #333;
+    font-size: 0.95em;
+    margin-bottom: 10px;
+    line-height: 1.6; /* Improved line spacing for readability */
+  }
+  
+  /* Hover effects for interactive elements (if any) */
+  .guide-container a:hover {
+    color: #0174BE; /* Highlight color on hover for links */
+    text-decoration: underline; /* Underline to indicate interactivity */
+  }
+  
+  /* Additional styles can be added as needed */
+  

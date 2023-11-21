@@ -1,0 +1,78 @@
+
+
+.PromptsPage-container {
+  width: 100%;
+  height: 100%; 
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  font-family: 'Arial', sans-serif;
+  position: relative;
+  background-color: #FFF0CE;
+}
+
+.PromptsPage-header {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Styling for user details and logout */
+.PromptsPage-userDetails {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  text-align: right;
+}
+
+.PromptsPage-user {
+  font-size: 0.9em;
+  color: #666;
+}
+
+.PromptsPage-logoutButton {
+  background: #ddd; /* Changed for discreet appearance */
+  color: #333;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: normal;
+  margin-top: 5px;
+}
+
+.PromptsPage-logoutButton:hover {
+  background: #ccc;
+}
+
+/* Styling for summary list and items */
+.PromptsPage-summaryList {
+  list-style: none;
+  padding: 0;
+  height: 100%; /* Adjust as needed */
+  overflow-y: auto; /* Scrollable container */
+}
+
+.PromptsPage-summaryItem {
+  background: white;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  cursor: pointer; /* Indicates item is clickable */
+}
+
+.PromptsPage-summaryTitle {
+  color: #333;
+  margin: 0 0 10px 0;
+}
+
+.PromptsPage-summaryDescription {
+  color: #666;
+  font-size: 0.8em;
+  margin-bottom: 5px;
+}
+
+.PromptsPage-summaryContent {
+  color: #444;
+}

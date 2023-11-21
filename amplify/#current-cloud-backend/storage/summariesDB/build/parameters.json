@@ -1,0 +1,5 @@
+{
+  "tableName": "summariesDB",
+  "partitionKeyName": "summaryID",
+  "partitionKeyType": "S"
+}

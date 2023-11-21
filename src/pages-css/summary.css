@@ -1,0 +1,99 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+  margin: 0;
+  background-color: #FFF0CE; /* This line sets the background color */
+}
+.summary-page-container {
+  padding: 20px;
+  height: 100%;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  align-items: center; /* Added */
+  justify-content: center;
+  background-color: #FFF0CE;
+}
+
+
+.summary-page-header {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Ensure sidebar width is constant */
+.sidebar {
+  width: 200px; /* Adjust the width as needed */
+  flex-shrink: 0; /* Prevents the sidebar from shrinking */
+}
+
+.summary-section {
+  background: #f9f9f9;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: 1px solid #e1e1e1;
+  overflow: auto; 
+  box-shadow: 0 2px 15px rgba(0,0,0,0.2);
+}
+
+.summary-section h3 {
+  margin-top: 0;
+  color: #0275d8;
+}
+
+.summary-section p,
+.summary-section textarea {
+  color: #666;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 1em;
+  box-sizing: border-box;
+  background: #f9f9f9;
+  resize: none;
+  max-width: 100%;
+  min-width: 100%;
+  max-height: 140px;
+  min-height: 140px;
+  overflow: auto;
+  word-wrap: break-word;
+  white-space: normal;
+}
+
+.summary-section textarea:focus {
+  outline: none;
+  border-color: #0275d8;
+}
+
+.save-summary-button {
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  margin-top: 10px;
+}
+
+.save-summary-button:hover {
+  background-color: #4cae4c;
+}
+
+.delete-summary-button {
+  background-color: #d9534f; /* Red color for delete */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  margin-top: 10px;
+}
+
+.delete-summary-button:hover {
+  background-color: #c9302c; /* Slightly darker red for hover */
+}

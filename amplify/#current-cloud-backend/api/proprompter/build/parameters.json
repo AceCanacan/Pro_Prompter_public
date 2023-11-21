@@ -1,0 +1,13 @@
+{
+    "AppSyncApiName": "proprompter",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": false,
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authproprompterce74343f",
+            "Outputs.UserPoolId"
+        ]
+    },
+    "S3DeploymentBucket": "amplify-proprompter-proprom-71907-deployment",
+    "S3DeploymentRootKey": "amplify-appsync-files/bf5cd87106e065db586ac313325d63d69150e8dc"
+}
